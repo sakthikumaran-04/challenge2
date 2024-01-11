@@ -22,6 +22,7 @@ body{
     justify-content: space-between;
     box-shadow: 6px 6px;
     border:1px solid black;
+    zoom:110%;
 }
 .main-img{
     margin-top:20px;
@@ -63,10 +64,6 @@ p:nth-child(4){
     color:hsl(0, 0%, 50%);
     font-size:14px;
 }
-p:nth-child(3):hover{
-    color:hsl(47, 88%, 63%);
-    cursor:pointer;
-}
 #user{
     padding-top: 20px;
     display:flex;
@@ -79,8 +76,13 @@ p:nth-child(3):hover{
     margin-left: 8px;
     font-weight: 800;
 }
+p:nth-child(3):hover{
+    color:hsl(47, 88%, 63%);
+    cursor:pointer;
+}
 @media only screen and (max-width: 375px){
     #container{
         width:310px;
+        zoom:normal;
     }
 }
